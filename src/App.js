@@ -9,13 +9,14 @@ const theme = {
     body: "#fff",
     footer: "#003333",
   },
+  mobile: "768px",
 };
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <GlobalStyles /> 
+        <GlobalStyles />
         <Header />
         <Container>
           <h1>styled</h1>
